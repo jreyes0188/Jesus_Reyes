@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Nombre_Empresa{
+    display: flex;
+    align-items: center;
+    text-decoration:underline;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.Logo_Empresa{
+display: flex;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.Logo_Empresa i{
+    display: flex;
+    font-size: 3.5rem;
+    align-items: center;
+    margin-left: 900px;
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+.Logo_Empresa i:hover{
+    color: rgb(255, 255, 255);
+}
+
+body {
+background-color: rgb(199, 130, 40);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;
+    text-decoration:underline;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.cafe_style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.cafe_style img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10%;
+    opacity: 0.7;
+    box-shadow: 0px 15px 25px 0px black;
+}
+
+.cafe_style img:hover{
+    opacity: 1;
+}
+
+.cafe_style h3{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.cafe_style p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cafe_style button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(100, 69, 2);
+    cursor: pointer;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 15px;    
+}
+
+.cafe_style button:hover {
+    background-color: white;
+    border: 3px solid rgb(100, 69, 2);
+    color: rgb(100, 69, 2);
+}
+
+.cafes_en_el_carrito{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: rgb(10, 10, 10);
+    background-color: rgb(207, 135, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+    border-radius: 25px;
+}
+
+
+.cafes_en_el_carrito::-webkit-scrollbar{
+    display: none;
+}
+
+.carritoTitulo{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.carritoTitulo_h1{
+    justify-self: start;
+}
+
+.buttonSalir_X{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+.carrito-body p{
+    font-size: 1.3rem;
+}
+
+.carrito-body h3 {
+    font-size: 1.4rem;
+}
+
+.cafes_en_el_carrito > .carrito-body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.cafes_en_el_carrito > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.cafes_en_el_carrito button{
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(100, 69, 2);
+    cursor: pointer;
+    width: 30%;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.cafes_en_el_carrito button:hover{
+    background-color: white;
+    border: 3px solid rgb(100, 69, 2);
+    color: rgb(100, 69, 2);
+}
+
+.total_Final{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.eliminar{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.numero-carrito{
+    background-color: rgb(255, 255, 255);
+    color: rgb(179, 108, 2);
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 4px;
+    top: 37px;
+    right: 90px;
+    position: absolute;
+    display: none;
+}
+
+.menos{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.mas{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+
+

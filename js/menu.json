@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cafe con Leche",
+        "precio": 180,
+        "img": "../assets/cafe1.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 2,
+        "nombre": "Mochachino",
+        "precio": 400,
+        "img": "../assets/cafe2.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Americano",
+        "precio": 250,
+        "img": "../assets/cafe3.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 4,
+        "nombre": "Espresso",
+        "precio": 320,
+        "img": "../assets/cafe4.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 5,
+        "nombre": "Cappuccino",
+        "precio": 400 ,
+        "img": "../assets/cafe5.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 6,
+        "nombre": "Latte",
+        "precio": 350 ,
+        "img": "../assets/cafe6.jpg",
+        "cantidad": 1
+    }
+]
